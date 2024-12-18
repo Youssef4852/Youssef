@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth; 
+}
+
+
+header {
+    background-color: #c60f09;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px ;
+}
+
+
+.logo{
+    text-decoration: none;
+    color: #f8a50e;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+header {
+    background-color: #c60f09;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px ;
+}
+
+.navigation a{
+    color: #f8a50e;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.navigation a:hover{
+    color: #ffe600;
+    transform: scale(1.1);
+}
+
+
+section {
+    padding: 100px 200px;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: #fffcee;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main h2 {
+    color: #f8a50e;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.main h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    color: #f8a50e;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.main h3 {
+    color: #f8a50e;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main-btn {
+    color: #f8a50e;
+    background-color: #c60f09;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+
+.main-btn:hover {
+    color: #c60f09;
+    background-color: #f8a50e;
+    transform: scale(1.1);
+}
+
+.social-icons a {
+    color: #c60f09;
+    font-size: 1.9em;
+    padding-right: 35px;
+}
+.social-icons a :hover {
+    color: #ec0901;
+    transform: scale(1.1);
+}  
+.social-icons2 a {
+    color: #f8a50e;
+    font-size: 1.9em;
+    padding-right: 35px;
+}
+.social-icons2 a :hover {
+    color: #ffe600;
+    transform: scale(1.1);
+}  
+.title {
+    display: flex;
+    justify-content: center;
+    color: #f8a50e;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    transform: scale(1.1);
+}
+
+
+.dropbtn {
+    color: white;
+    padding: 14px 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.arrow {
+    margin-left: 5px;
+    font-size: 12px;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #c60f09;
+    min-width: 160px;
+    z-index: 1;
+    border-radius: 5px;
+    
+}
+
+.dropdown-content a {
+    color: #f8a50e;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    
+}
+
+.dropdown-content a:hover {
+   color: #c60f09;
+    background-color: #f8a50e;
+    transform: scale(1.1);
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+#sing-energy-drink, #energy-drink-power-boost, #mccafe-enjoy-meal, #domty-cheese-delight, #water-delivery-promotion, #mccafe-coffee-splash, #spicy-fiery-burger, #almarai-cooking-oil {
+    scroll-margin-top: 5px; 
+}
+.dropdown:active .arrow {
+    transform: scale(1.1);
+}
+
+#graphic-designer,
+#education-and-learning {
+    padding: 10px 0;
+    margin-top: 5px;  
+}
+
+
+.info {
+    margin-bottom: 5px;  
+}
+
+
+h3 {
+    margin-bottom: 5px; 
+}
+
+
+p {
+    margin-top: 0;
+    margin-bottom: 5px; 
+}
+#front-end-web-developer, #graphic-designer, #education-and-learning {
+    padding: 20px 0; 
+    margin-top: 10px;
+    scroll-margin-top: 340px; 
+}
+.projects-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;  
+    gap: 20px;
+}
+
+/* الكارد (كارت المشروع) */
+.project-card {
+    background-color: #f8a50e;
+    border: 1px solid #f8a50e;
+    width: 48%;  /* عرض الكارد 48% ليكون هناك كاردين في كل صف */
+    overflow: hidden;
+    border-radius: 12px;
+    transition: 0.7s ease;
+    display: flex;
+    flex-direction: column; /* تأكيد ترتيب العناصر بشكل عمودي */
+    justify-content: flex-start; 
+    padding: 2px;
+    margin: 0;  /* إزالة المسافة الإضافية */
+}
+
+/* تقليل المسافة بين الصورة والنص */
+.project-image {
+    flex-grow: 1;
+    margin-bottom: 0; /* إزالة المسافة أسفل الصورة */
+}
+
+.project-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 0; /* إزالة المسافة أسفل الصورة */
+}
+
+/* تقليل المسافة بين النص في الكارد */
+.project-info {
+    padding: 5px; /* تقليل الحشو داخل النص */
+    margin-top: 5px;  /* تقليل المسافة بين النص والصورة */
+    margin-bottom: 0; /* تقليل المسافة أسفل النص */
+}
+
+/* تقليل المسافة بين العنوان والنص */
+.project-title {
+    margin-top: 5px;
+    font-size: 1.2em;
+    color: #c60f09;
+    margin-bottom: 5px; /* تقليل المسافة أسفل العنوان */
+}
+
+/* تقليل المسافة بين العنوان والتفاصيل */
+.project-category {
+    font-size: 0.9em;
+    color: #c60f09;
+    margin-bottom: 5px; /* تقليل المسافة بين العنوان والنص */
+}
+
+.more-details {
+    margin-top: 10px; /* تقليل المسافة بين النص الرئيسي وزر المزيد */
+    color: #f8a50e;
+    background-color: #c60f09;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.93em 1.18em;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    transition: 0.7s ease;
+}
+
+.more-details:hover {
+    color: #c60f09;
+    background-color: #fffcee;
+}
+
+
+
+
+.contact .icon{
+    font-size: 4.5em;
+}
+
+.contact .info h3 {
+    color: #f8a50e;
+}
+
+.contact .info p {
+    font-size: 1.5em;
+    color: #f8a50e;
+}
+.contact .info a {
+    font-size: 1.5em;
+    color: #f8a50e;
+    text-decoration: none;
+}
+.contact .info a:hover {
+    color: #ffe600;
+    transform: scale(1.1);
+}
+.footer {
+    background-color: #c60f09;
+    color: #f8a50e;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+     text-overflow: ellipsis;
+     overflow: hidden;
+}
+
+.footer-title {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.footer-title span {
+    color: #f8a50e;
+}
+
+.footer .social-icons a{
+    font-size: 1.3em;
+    padding: 0 12px 0 0;
+    text-overflow: ellipsis;
+    color: #f8a50e;
+}
+
+@media (max-width:1023px){
+    header{
+        padding: 12px 20px;
+    }
+
+    .navigation a{
+        padding-left: 10px;
+    }
+
+    .title{
+        font-size: 1.8em;
+    }
+
+    section{
+        padding: 80px 20px;
+    }
+
+    .main-content h2{
+        font-size: 1em;
+    }
+
+    .main-content h3{
+        font-size: 1.6em;
+    }
+
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media (max-width:641px){
+    body{
+        font-size: 12px;
+    }
+
+    .main-content h2{
+        font-size: 0.8em;
+    }
+
+    .main-content h3{
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width:300px){
+    body{
+        font-size: 10px;
+     
+    }
+}
+.scroll-effect {
+    opacity: 0; 
+    transform: translateY(50px); 
+    transition: all 0.8s ease-in-out; 
+}
+
+
+.scroll-effect.active {
+    opacity: 1;
+    transform: translateY(0);
+}
